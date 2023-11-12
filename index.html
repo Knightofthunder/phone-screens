@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title> ADS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nunito+Sans:opsz,wght@6..12,200&family=Tilt+Neon&family=Young+Serif&display=swap" rel="stylesheet">
+  <style>
+  body {
+    font-family: Nunito Sans;
+    font-weight: bold;
+  }
+  
+  .phone-screen{
+    height: 1745px;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 50px 30px 0px;
+    background-image: url(https://w0.peakpx.com/wallpaper/730/501/HD-wallpaper-iphone-14-pro.jpg);
+    background-size: cover;
+    
+  }
+  
+  .main-body{
+    height: 1325px;
+    width: 900px;
+   /* background-color: pink; */
+    border-radius: 25px;
+  }
+  
+  #notification{
+    height: 100px;
+    width: 900px;
+  }
+  
+ 
+  
+  #time{
+    font-size: 40px;
+    margin-top: 18px;
+    margin-left: 40px;
+    color:black;
+    display: inline-block;
+    float:left;
+  }
+  
+  #phone-camera{
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 55px;
+    background-color: black;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 290px; 
+    float: left;
+   }
+  
+  #phone-signal{
+    display: inline-block;
+    float: left;
+    margin-left: 260px;
+    margin-top: 20px;
+   }
+  
+  #bettary{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  } 
+  
+  #day-time{
+    height: 625px;
+    width: 900px;
+  }
+  
+  .spacing{
+    height: 200px;
+    width: 900px;
+  }
+  
+  #day{
+    font-size: 110px;
+    color: white;
+    margin-left: 25px;
+    
+  }
+  
+  #time-big{
+    font-size: 120px;
+    color: red;
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  #time-small{
+    font-size: 120px;
+    color: white;
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  #month{
+    font-size: 50px;
+    color: white;
+    margin-left: 35px;
+    margin-top: ;
+  }
+  
+  .google{
+    height: 110px;
+    width: 820px;
+    background-color: white;
+    border-radius: 90px;
+    margin-left: 40px;
+    margin-top: 425px;
+    opacity: 0.97;
+  }
+  
+  #google-logo{
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+  }
+  
+  #google-assistant{
+    display: inline-block;
+    margin-left: 455px;
+    margin-top: 20px;
+  }
+  
+  #google-lens{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+  
+  .apps{
+    height: 220px;
+    width: 900px;
+    margin-top: 55px;
+  }
+  
+  #app1-playstore{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+  
+  #playstore-text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  #app2-messenger{
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  #messenger-text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+  
+   #app3-insta{
+     display: inline-block;
+     margin-left: 40px;
+   }
+  
+  #insta-text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  } 
+  
+  #app4-linkedIn{
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  #linkedIn-text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 18px;
+   }
+    
+   #app5-spotify{
+    display: inline-block;
+    margin-left: 40px;
+   }
+  
+  #spotify-text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  
+  .five-dots{
+    height: 200px;
+    width: 900px;
+  }
+  
+  #dot1{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 400px;
+    display: inline-block;
+    margin-top: 100px;
+    
+  }
+  
+  #dot2{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.4;
+  }
+  
+  #dot3{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.4;
+  }
+  
+  #dot4{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.4;
+  }
+  
+  #dot5{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.4;
+  }
+  
+  .control-button{
+    height: 220px;
+    width: 900px;
+  }  
+  
+  #l-apps{
+    height: 155px;
+    width: 900px;
+  }
+  
+  #l-app-1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -10px;
+  }
+  
+  #l-app-2{
+    overflow: hidden;
+    border-radius: 90px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  #l-app-3{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  #l-app-4{
+    border: 1px solid red;
+    display: inline-block;
+    overflow: hidden;
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  #l-app-5{
+    display: inline-block;
+    margin-left: 20px;
+  }
+     
+  #gesture-navigation{
+    height: 15px;
+    width: 400px;
+    background-color:white;
+    opacity: 0.3;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 250px;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="phone-screen">
+   <div class="main-body">
+    <div class="notification"> 
+     <div id="time">23:23</div>
+     <div id="phone-camera"></div>
+     <div id="phone-signal">
+       <img src="https://vectorified.com/images/phone-signal-icon-29.png" 
+         height="45px">
+     </div>
+     <div id="bettary">
+       <img src="https://cdn.iconscout.com/icon/free/png-512/free-low-battery-5-474981.png?f=webp&w=512"
+         height="70px">
+     </div>
+    </div> 
+    <div class="day-time">
+     <div class="spacing"></div>
+     <div id="day">Monday</div>
+     <div id="time-big">23</div>
+     <div id="time-small">:23</div>
+     <div id="month">January 23</div>
+    </div>
+    <a href="https://google.com">
+    <div class="google">
+     <div id="google-logo">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" height="70px" width="150px">
+     </div>
+     <div id="google-assistant">
+       <img src="https://seeklogo.com/images/G/google-mic-logo-EF440C9A6F-seeklogo.com.png" height="60px" width="45px">
+     </div>
+     <div id="google-lens">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Lens_Icon.svg"  height="80px" width="100px">
+     </div>
+    </div>
+    </a>
+    <div class="apps">
+      <div id="app1-playstore">
+       <div id="playstore-logo">
+        <img src="https://seeklogo.com/images/G/google-play-logo-C0F8C12322-seeklogo.com.png" height="130px" width="115px">
+       </div>
+       <div id="playstore-text">Play Store</div>
+      </div>
+      <div id="app2-messenger">
+       <div id="messenger-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/1280px-Facebook_Messenger_logo_2020.svg.png" height="130px" width="130px">
+       </div>
+       <div id="messenger-text">Messenger</div>
+      </div>
+      <div id="app3-insta">
+        <div id="insta-logo">
+          <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ig-instagram-icon.png" height="130px" width="130px">
+        </div>
+        <div id="insta-text">Instagram</div>
+      </div>
+      <div id="app4-linkedIn">
+        <div id="linkedIn-logo">
+          <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-icon.png" height="130px" width="130px">
+        </div>
+        <div id="linkedIn-text">linkedIn</div>
+      </div>
+      <div id="app5-spotify">
+        <div id="spotify-logo">
+          <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/spotify-icon.png" height="130px" width="130px">
+        </div>
+        <div id="spotify-text">Spotify</div>
+      </div>
+    </div>
+   </div>
+   <div class="five-dots">
+     <div id="dot1"></div>
+     <div id="dot2"></div>
+     <div id="dot3"></div>
+     <div id="dot4"></div>
+     <div id="dot5"></div>
+   </div> 
+   <div class="control-button">
+     <div id="l-apps">
+       <div id="l-app-1">
+         <img src="https://cdn.wethegeek.com/wp-content/uploads/2017/10/Dialer-IOS12-style.png" height="140px" width="140px">
+       </div>
+       <div id="l-app-2">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Google_Messages_logo.svg" height="140px" width="140px">
+       </div>
+       <div id="l-app-3">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg" height="150px" width="140px">
+       </div>
+       <div id="l-app-4">
+         <img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/600x/1b89f2fc96fc819c2a7e15c7e545e8a9/4/5/455.9-gallery-icon-iconbunny.jpg" height="140px" width="140px">
+       </div>
+       <div id="l-app-5">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Circle-icons-camera.svg" height="140px" width="140px">
+       </div>
+     </div>
+     <div id="gesture-navigation"></div>
+   </div>
+  </div>
+</body>
+</html>
